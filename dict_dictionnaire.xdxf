@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xdxf lang_from="FRA" lang_to="POL" format="visual" revision="DD">
+  <meta_info>
+    <title/>
+    <full_title/>
+    <author/>
+    <description/>
+    <abbreviations>
+      <abbr_def type="grm">
+        <abbr_k>abbreviated text</abbr_k>
+        <abbr_v>full text</abbr_v>
+      </abbr_def>
+      <abbr_def type="grm">
+        <abbr_k>n.</abbr_k>
+        <abbr_v>noun</abbr_v>
+      </abbr_def>
+      <abbr_def type="grm">
+        <abbr_k>v.</abbr_k>
+        <abbr_v>verb</abbr_v>
+      </abbr_def>
+    </abbreviations>
+    <file_ver/>
+    <creation_date>01-06-2020</creation_date>
+  </meta_info>
+  <lexicon>
+    <ar key="orage">
+      <k>orage</k>
+      <span>burza , sztorm </span>
+      <ex>L'orage va amener des vents violents et de la pluie.</ex>
+      <hr/>
+      <k>orage</k>
+      <span>burza </span>
+      <ex>L'orage a effrayé notre chien, qui a peur du tonnerre.</ex>
+      <hr/>
+      <k>orage</k>
+      <span>elektryczne wyładowania </span>
+      <hr/>
+      <k>orage</k>
+      <def> (avec éclairs)</def>
+      <span>burza z piorunami </span>
+      <ex>L'orage a effrayé notre chien, qui a peur des éclairs et de la foudre.</ex>
+      <hr/>
+    </ar>
+    <ar key="remplir" lang_from="francais" lang_to="italien">
+      <k>remplir</k>
+      <span>pervadere</span>
+      <hr/>
+      <k>remplir</k>
+      <span>compilare</span>
+      <hr/>
+      <k>remplir</k>
+      <span>riempire</span>
+      <hr/>
+      <k>remplir qn de</k>
+      <span>riempire qn di</span>
+      <hr/>
+      <k>remplir qch de</k>
+      <span>riempire qc di</span>
+      <hr/>
+      <k>remplir à nouveau</k>
+      <span>ricaricare</span>
+      <hr/>
+      <k>rempli de</k>
+      <span>pieno di</span>
+      <hr/>
+      <k>remplir (de)</k>
+      <span>riempire (di)</span>
+      <hr/>
+      <k>inonder ; remplir d'eau</k>
+      <span>allagare</span>
+      <hr/>
+      <k>remplir de ; combler de</k>
+      <span>colmare di</span>
+      <hr/>
+      <k>imprégner (de) ; remplir</k>
+      <span>impregnare (di)</span>
+      <hr/>
+      <k>envahir, remplir &gt;&gt; se presser (foule)</k>
+      <span>assiepare &gt;&gt; assieparsi (folla)</span>
+      <hr/>
+      <k>remplir</k>
+      <span>riempire  </span>
+      <context>    (questionnaire, fiche)&#13;
+  </context>
+      <hr/>
+      <k>remplir</k>
+      <span>compilare</span>
+      <context>    (obligations, formalité)&#13;
+  </context>
+      <hr/>
+      <k>remplir</k>
+      <span>adempiere a</span>
+      <context>    (fonction, rôle)&#13;
+  </context>
+      <hr/>
+      <k>remplir</k>
+      <span>assolvere</span>
+      <context>    (conditions)&#13;
+  </context>
+      <hr/>
+      <ex>Di che riempire i piatti dei numerosi amanti della specie.</ex>
+      <trans>De quoi remplir les assiettes de nombreux amateurs.</trans>
+      <hr/>
+      <ex>Stai solo cercando di riempire il tuo stomaco.</ex>
+      <trans>Tu cherches à remplir ton estomac.</trans>
+      <hr/>
+      <ex>Adesso capisco perché hai voluto compilare tu tutti questi moduli legali.</ex>
+      <trans>Pourquoi tu voulais remplir tous les papiers juridiques.</trans>
+      <hr/>
+      <ex>Nel frattempo, può compilare uno di questi. Sì, va bene.</ex>
+      <trans>En attendant, peut-être pourriez-vous remplir ceci.</trans>
+      <hr/>
+      <ex>Inoltre, essi continueranno a soddisfare l'altro criterio della concessione di credito.</ex>
+      <trans>De plus, ils continueront à remplir l'autre critère, à savoir l'octroi de crédits.</trans>
+      <hr/>
+      <ex>Essi dovrebbero tuttavia soddisfare condizioni identiche o simili a quelle applicabili alle organizzazioni di produttori.</ex>
+      <trans>Ils doivent toutefois remplir des conditions identiques ou analogues à celles applicables aux organisations de producteurs.</trans>
+      <hr/>
+    </ar>
+  </lexicon>
+</xdxf>
