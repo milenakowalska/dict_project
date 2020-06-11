@@ -10,20 +10,8 @@ os.chdir(os.path.dirname(__file__))
 if not os.path.exists('dictionaries'):
     os.mkdir('dictionaries')
 
-@dataclass
-class Word:
-    key: str
-    translations: str
-    context: str = None
-
-@dataclass
-class Example:
-    example: str
-    translation_example: str = None
-
-class DictionaryTemplate:
-    def __init__(self, dictionary, language_from, language_to):
-        self.name = f'{dictionary}_{language_from}_{language_to}.xdxf'
+def dictionary_template(dictionary, language_from, language_to):
+        dictionary_name = f'{dictionary}_{language_from}_{language_to}.xdxf'
         
         root = etree.Element('xdxf')
         root.set('lang_from', languages[language_from][1])
@@ -39,8 +27,18 @@ class DictionaryTemplate:
 
         etree.SubElement(root, 'lexicon')
         tree = etree.ElementTree(root)
-        tree.write(f'dictionaries/{self.name}', pretty_print=True, xml_declaration=True, encoding='utf-8')
+        tree.write(f'dictionaries/{dictionary_name}', pretty_print=True, xml_declaration=True, encoding='utf-8')
 
+@dataclass
+class Word:
+    key: str
+    translations: str
+    context: str = None
+
+@dataclass
+class Example:
+    example: str
+    translation_example: str = None
 
 class DictionaryParser:
     @staticmethod
@@ -48,14 +46,9 @@ class DictionaryParser:
         '''Finds word definitions on a Website'''
         raise Exception("NotImplementedException")
 
-    @staticmethod
-    def check_word(language_from, language_to, word):
-        '''First, looks for a definition in local XDXF dictionary. If not found, searches on a Website'''
-        pass
-
 class WordreferenceParser(DictionaryParser):
     """Searches word definition in wordreference.com"""
-
+    dictionary_string = 'wordreference'
     @staticmethod
     def find_definition(language_from, language_to, word):
         language_from = languages[language_from][0]
@@ -113,9 +106,9 @@ class WordreferenceParser(DictionaryParser):
 
         return [list_of_words, list_of_examples]
 
-class DicctionaireParser(DictionaryParser):
+class DictionnaireParser(DictionaryParser):
     """Searches word definition in dictionnaire.reverso.net"""
-
+    dictionary_string = 'dictionnaire'
     @staticmethod
     def find_definition(language_from, language_to, word):
         source = requests.get(f'https://dictionnaire.reverso.net/{language_from}-{language_to}/{word}', headers={'User-Agent': 'Mozilla/5.0'}).text
@@ -169,17 +162,18 @@ class DicctionaireParser(DictionaryParser):
             
         return [list_of_words, list_of_examples]
 
+installed_dictionaries = [WordreferenceParser, DictionnaireParser]
 
-def check_word(dictionary_class, dictionary: str, language_from: str, language_to: str, word: str) -> list:
+def check_word(dictionary: str, language_from: str, language_to: str, word: str) -> list:
     current_dictionary = f'dictionaries/{dictionary}_{language_from}_{language_to}.xdxf'
-    results = [[],[]]
 
+    list_of_words, list_of_examples = [],[]
     if os.path.exists(current_dictionary):
         parser = etree.XMLParser(remove_blank_text=True)
         tree = etree.parse(current_dictionary, parser)
         root = tree.getroot()
         for element in tree.iter('ar'):
-            if element.get('key') == word and element.get('lang_from') == language_from and element.get('lang_to') == language_to:
+            if element.get('key') == word:
                 key, translation, context, translation_example, example = '','','','',''
                 for tag in element.iter():
                     if tag.tag == 'k':
@@ -194,25 +188,26 @@ def check_word(dictionary_class, dictionary: str, language_from: str, language_t
                         example = tag.text
                     elif tag.tag == 'hr':
                         if key != '' and translation != '':
-                            results[0].append(Word(key, translation, context))
+                            list_of_words.append(Word(key, translation, context))
                         if example != '':
-                            results[1].append(Example(example, translation_example))
+                            list_of_examples.append(Example(example, translation_example))
                         key, translation, definition, example = '','','',''
     else:
-        DictionaryTemplate(dictionary, language_from, language_to)
+        dictionary_template(dictionary, language_from, language_to)
         parser = etree.XMLParser(remove_blank_text=True)
         tree = etree.parse(current_dictionary, parser)
         root = tree.getroot()
 
-    if results == [[],[]]:    
-        results = dictionary_class.find_definition(language_from, language_to, word)
+    if list_of_words == [] and list_of_examples == []:  
+        for dictionary_class_name in installed_dictionaries:
+            if dictionary_class_name.dictionary_string == dictionary:
+                dictionary_class = dictionary_class_name  
+        list_of_words, list_of_examples = dictionary_class.find_definition(language_from, language_to, word)
 
-        ar = etree.SubElement(root[1], 'ar')
+        ar = etree.SubElement(root.find('lexicon'), 'ar')
         ar.set('key',word)
-        ar.set('lang_from', language_from)
-        ar.set('lang_to', language_to)
 
-        for definition in results[0]:
+        for definition in list_of_words:
             key = etree.SubElement(ar, 'k')
             key.text = definition.key
             if definition.translations:
@@ -223,7 +218,7 @@ def check_word(dictionary_class, dictionary: str, language_from: str, language_t
                 context.text = definition.context
             etree.SubElement(ar, 'hr')
 
-        for example in results[1]:
+        for example in list_of_examples:
             if example.example:
                 ex = etree.SubElement(ar, 'ex')
                 ex.text = example.example
@@ -233,7 +228,7 @@ def check_word(dictionary_class, dictionary: str, language_from: str, language_t
             
         tree.write(current_dictionary, encoding='utf-8', pretty_print=True, xml_declaration=True)
 
-    return results
+    return [list_of_words, list_of_examples]
 
-check_word(DicctionaireParser,'dicctionaire', 'francais','anglais','remplir')
-check_word(WordreferenceParser,'wordreference', 'francais','anglais','remplir')
+check_word('dictionnaire', 'francais','polonais','orage')
+check_word('wordreference', 'francais','anglais','remplir')
