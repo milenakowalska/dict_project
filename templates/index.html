@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Find definition</title>
+{% endblock %}
+
+{% block body %}
+
+    <h1>Find definition</h1>
+    <div class='content'>
+    <form action="/definition/" method='POST'>
+        <label class='main_label' for="word">Put a word:</label><br>
+            <input type="text" id="word" name="word"><br>
+
+            <select id="language_from" name="language_from">
+                <option value="" disabled selected>Language from</option>
+                <option value="chiois">chiois</option>
+                <option value="anglais">anglais</option>
+                <option value="francais">francais</option>
+                <option value="allemand">allemand</option>
+                <option value="italien">italien</option>
+                <option value="portugais">portugais</option>
+                <option value="polonais">polonais</option>
+                <option value="russe">russe</option>
+                <option value="espagnol">espagnol</option>
+            </select>
+            <label for="languages">→</label>
+            <select id="language_to" name="language_to">
+                <option value="" disabled selected>Language from</option>
+                <option value="chiois">chiois</option>
+                <option value="anglais">anglais</option>
+                <option value="francais">francais</option>
+                <option value="allemand">allemand</option>
+                <option value="italien">italien</option>
+                <option value="portugais">portugais</option>
+                <option value="polonais">polonais</option>
+                <option value="russe">russe</option>
+                <option value="espagnol">espagnol</option>
+            </select><br><br>
+            <label class='main_label'>Select dictionary:</label><br>
+            <input type="checkbox" value="wordreference" name="dictionary_name">
+            <label for="wordreference"> Wordreference</label><br>
+
+            <input type="checkbox" value="dictionnaire" name="dictionary_name">
+            <label for="dictionnaire"> Dictionnaire</label><br>
+
+            <input type='submit' value='Find definition'>
+
+    </form>
+</div>
+{% endblock %}

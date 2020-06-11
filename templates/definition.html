@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Word definition</title>
+{% endblock %}
+
+{% block body %}
+
+    <h1>Word definition</h1>
+    <div class='content'>
+        {% for word in words %}
+            <h4>{{ word.key }}</h4>
+            <h5>{{ word.translations }}</h5>
+            {% if word.context %}
+            <h5 style='color:gray'>{{ word.context }}</h5>
+            {% endif %}
+            <hr>
+        {% endfor %}
+
+        {% for example in examples %}
+            <h5>{{ example.example }}</h5>
+            {% if example.translation_example %}
+            <h6 style='color:gray'>{{ example.translation_example }}</h6>
+            {% endif %}
+            <hr>
+        {% endfor %}
+    </div>
+{% endblock %}
