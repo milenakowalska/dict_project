@@ -6,10 +6,6 @@ from dataclasses import dataclass
 
 languages = {'francais':['fr','fra'], 'polonais':['pl','pol'], 'italien':['it','ita'], 'allemand':['de','ger'], 'anglais':['en','eng'],'portugais':['pt','por'],'chinois':['zh','chi']}
 
-os.chdir(os.path.dirname(__file__))
-if not os.path.exists('dictionaries'):
-    os.mkdir('dictionaries')
-
 def dictionary_template(dictionary, language_from, language_to):
         dictionary_name = f'{dictionary}_{language_from}_{language_to}.xdxf'
         
