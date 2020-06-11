@@ -1,3 +1,5 @@
 .mypy_cache/
 .DS_Store
 https:/
+dictionaries/dictionnaire_francais_polonais.xdxf
+dictionaries/wordreference_francais_anglais.xdxf
