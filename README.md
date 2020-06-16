@@ -45,7 +45,7 @@ Open the app in browser using http://localhost:5000/
 Put a word in the text field and select the languages combination and dictionary.
 On the top you'll find translations and definitions and below, if available, sentence examples. 
 The results will be automatically saved in the .XDXF file with the name: \
-{dictionary_name}_{language_from}_{language_to}.xdxf \
+**{dictionary_name}\_{language_from}\_{language_to}.xdxf** \
 All dictionary files are placed in the folder named "dictionaries".
 
 ## Owner
