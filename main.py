@@ -4,7 +4,7 @@ from collections import namedtuple
 from lxml import etree
 from dataclasses import dataclass
 
-languages = {'francais':['fr','fra'], 'polonais':['pl','pol'], 'italien':['it','ita'], 'allemand':['de','ger'], 'anglais':['en','eng'],'portugais':['pt','por'],'chinois':['zh','chi']}
+languages = {'francais':['fr','fre'], 'polonais':['pl','pol'], 'italien':['it','ita'], 'allemand':['de','ger'], 'anglais':['en','eng'],'portugais':['pt','por'],'chinois':['zh','chi']}
 
 def dictionary_template(dictionary, language_from, language_to):
         dictionary_name = f'{dictionary}_{language_from}_{language_to}.xdxf'
@@ -17,7 +17,14 @@ def dictionary_template(dictionary, language_from, language_to):
 
         meta_info = etree.SubElement(root, 'meta_info')
         title = etree.SubElement(meta_info, 'title')
-        title.text = f'{dictionary}: {language_from} - {language_to}'
+        title.text = f'{dictionary.capitalize()}: {language_from} - {language_to}'
+
+        description = etree.SubElement(meta_info, 'description')
+        description.text = f'Dictionary: {dictionary.capitalize()}; language-from: {language_from}; language-to: {language_to}'        
+
+        full_name = etree.SubElement(meta_info, 'full_name')
+        full_name.text = f'{dictionary.capitalize()}: {language_from} - {language_to}'
+
         creation_date = etree.SubElement(meta_info, 'creation_date')
         creation_date.text = datetime.date.today().strftime("%d-%m-%Y")
 
