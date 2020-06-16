@@ -13,9 +13,9 @@ This app allows you to gather definitions and sentence examples from 2 online di
 ## Screenshots
 ![Screenshot1](./img/Screenshot1.png)
 ### Word translation:
-![Screenshot2](./img/Screenshot3.png)
+![Screenshot2](./img/Screenshot2.png)
 ### Sentence examples:
-![Screenshot2](./img/Screenshot3.png)
+![Screenshot3](./img/Screenshot3.png)
 
 ## Setup
 ### Clone the source:
