@@ -29,14 +29,14 @@ $ cd dict_project
 ### Install packages
 
 ```shell
-$ pip install requirements.txt
+$ pip3 install -r requirements.txt
 ```
 ### Run and open the app
 
 Run the code in terminal:
 
 ```shell
-$ python flask_dictionary_app.py
+$ python3 flask_dictionary_app.py
 ```
 
 Open the app in browser using http://localhost:5000/
