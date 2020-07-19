@@ -229,9 +229,13 @@ def check_word(dictionary: str, language_from: str, language_to: str, word: str)
             translation_example.text = example.translation_example
             etree.SubElement(ar, 'hr')
             
-        tree.write(current_dictionary, encoding='utf-8', pretty_print=True, xml_declaration=True)
+        if list_of_words != [] and list_of_examples != []: 
+            tree.write(current_dictionary, encoding='utf-8', pretty_print=True, xml_declaration=True)
 
-    return [list_of_words, list_of_examples]
+    if list_of_words != [] and list_of_examples != []: 
+        return [list_of_words, list_of_examples]
+    else:
+        return [[Word('Word not found!', '')],[]]
 
-check_word('dictionnaire', 'francais','polonais','orage')
-check_word('wordreference', 'francais','anglais','remplir')
+
+

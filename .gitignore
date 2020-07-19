@@ -1,5 +1,9 @@
 .mypy_cache/
 .DS_Store
 https:/
+__pycache__/
 dictionaries/dictionnaire_francais_polonais.xdxf
 dictionaries/wordreference_francais_anglais.xdxf
+dictionaries/wordreference_allemand_allemand.xdxf
+dictionaries/wordreference_allemand_anglais.xdxf
+dictionaries/wordreference_francais_italien.xdxf
