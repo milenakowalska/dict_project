@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.form {
+    margin-top: 2px;
+}
+
+.content {
+    margin: auto;
+    width: 92%;
+    border: 1px solid grey;
+    padding: 5px 1px;
+}
+
+label, input, select {
+    margin: 6px 2px;
+    padding: 4px 3px;
+}
+
+.main_label {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 8px;
+}
