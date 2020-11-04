@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xdxf lang_from="ger" lang_to="fre" format="visual" revision="DD">
+  <meta_info>
+    <title>Wordreference: allemand - francais</title>
+    <description>Dictionary: Wordreference; language-from: allemand; language-to: francais</description>
+    <full_name>Wordreference: allemand - francais</full_name>
+    <creation_date>04-11-2020</creation_date>
+  </meta_info>
+  <lexicon>
+    <ar key="Mutter">
+      <k>Mutter, Erziehungsberechtigte, Erziehungsberechtigte</k>
+      <span>maman , mère </span>
+      <context> (familier, assez enfantin)</context>
+      <hr/>
+      <k>Mama, Mutter, Mutter</k>
+      <span>maman </span>
+      <context> (familier)</context>
+      <hr/>
+      <k>Mutter, Muttertier, Muttertier</k>
+      <span>mère , mère de famille </span>
+      <hr/>
+      <k>Mutter</k>
+      <span>mère , maman </span>
+      <hr/>
+      <k>Mutter, Muttertier, Muttertier</k>
+      <span>mère </span>
+      <context> (d'un animal)</context>
+      <hr/>
+      <k>Mutter</k>
+      <span>écrou </span>
+      <context> (Werkzeug, Metall)</context>
+      <hr/>
+      <k>Mutter, Mutti, Mutti</k>
+      <span>mère </span>
+      <hr/>
+      <k>Mutter</k>
+      <span>ergot , écrou (de roue) , cosse </span>
+      <context> (Handwerk)</context>
+      <hr/>
+      <k>Mutter</k>
+      <span>femme enceinte, patiente (enceinte) </span>
+      <hr/>
+      <k>Mama, Mutti, Mutter, Mutti</k>
+      <span>maman , mère </span>
+      <context> (familier, assez enfantin)</context>
+      <hr/>
+      <k>Mama, Mutti, Mutter, Mutti</k>
+      <span>maman , mère </span>
+      <context> (familier)</context>
+      <hr/>
+      <k>Mama, Mutter, Muttern, Muddie, Mutter</k>
+      <span>mère , maman </span>
+      <context> (soutenu)</context>
+      <hr/>
+      <k>Mama, Mutter, Mutter</k>
+      <span>maman </span>
+      <context> (familier)</context>
+      <hr/>
+      <k>Mama, Mutter, Alte, Mutter</k>
+      <span>maman </span>
+      <context> (familier)</context>
+      <hr/>
+      <k>Mama, Mami, Mutter, Mami</k>
+      <span>maman , maternel, maternelle </span>
+      <context> (ugs) (familier)</context>
+      <hr/>
+      <k>matrilineal, mütterlicherseits, auf Seiten der Mutter, mütterlicherseits</k>
+      <span>matrilinéaire </span>
+      <context> (Biol)</context>
+      <hr/>
+      <k>Alleinerziehender, Alleinerziehende, alleinerziehender Vater, alleinerziehende Mutter, Alleinerziehende</k>
+      <span>parent isolé </span>
+      <hr/>
+      <k>Natur, Mutter Natur, Mutter Natur</k>
+      <span>Dame Nature , Mère Nature </span>
+      <context> (allg)</context>
+      <hr/>
+      <k>Mutter-, mütterlich, mütterlich</k>
+      <span>maternel, maternelle </span>
+      <hr/>
+      <k>Mutter-</k>
+      <span>mère </span>
+      <context> (société, compagnie)</context>
+      <hr/>
+      <k>mütterlicherseits, auf Seiten der Mutter, auf Seiten der Mutter</k>
+      <span>maternel, maternelle </span>
+      <hr/>
+      <k>Mutter-, mütterlich, mütterlich</k>
+      <span>maternel, maternelle </span>
+      <hr/>
+      <k>Mutter-</k>
+      <span>maman </span>
+      <context> (familier)</context>
+      <hr/>
+      <k>Mutter-</k>
+      <span>maternel, maternelle </span>
+      <context> (Sprachwissenschaft) (langue)</context>
+      <hr/>
+      <k>haben, Mutter werden, Mutter werden</k>
+      <span>donner naissance à </span>
+      <context> (umgangssprachlich)</context>
+      <hr/>
+      <k>den Mord der Mutter betreffend, muttermörderisch, muttermörderisch</k>
+      <span>matricide </span>
+      <hr/>
+      <k>mutterloses Kalb, Kälbchen, das keine Mutter hat, Kälbchen, das keine Mutter hat</k>
+      <span>veau sans mère </span>
+      <hr/>
+      <k>Mutter Erde, der blaue Planet, der blaue Planet</k>
+      <span>notre mère la Terre , terre nourricière , terre-mère </span>
+      <hr/>
+      <k>Planet Erde, Erde, Mutter Erde, Erde</k>
+      <span>planète Terre </span>
+      <hr/>
+      <k>Mutter von [etw], Ursache von [etw], Ursache von [etw]</k>
+      <span>la mère de </span>
+      <context> (übertragen) (figuré)</context>
+      <hr/>
+      <ex>Susan's Mutter ist wirklich nett.</ex>
+      <trans>Sa mère est vraiment gentille.</trans>
+      <hr/>
+      <ex>Hallo Mama. Was gibt es zu essen?</ex>
+      <trans>Salut, maman. Qu'est-ce qu'on mange ce soir ?</trans>
+      <hr/>
+      <ex>Ich liebe meine Mutter von ganzem Herzen.</ex>
+      <trans>J'aime ma mère de tout mon cœur. // La vie change quand on devient mère (de famille).</trans>
+      <hr/>
+      <ex>Die Lämmer und ihre Mutter marschierten über die Straße.</ex>
+      <trans>Les agneaux et leurs mères traversaient la route les uns après les autres.</trans>
+      <hr/>
+      <ex>Beim Festziehen einer Mutter an seinem Auto verletzte Joe sein Handgelenk.</ex>
+      <trans>Joe tenta de serrer un écrou de sa voiture et se blessa au poignet.</trans>
+      <hr/>
+      <ex>Es ist die Mutter in ihr, die sie zu Freundlichkeit und Geduld führt.</ex>
+      <trans>C'est la mère qui est en elle qui dévoile des trésors de patience.</trans>
+      <hr/>
+      <ex>John's Mama kommt aus London.</ex>
+      <trans>La mère de John venait de Londres.</trans>
+      <hr/>
+      <ex>Mama hat gesagt, wir sollen das Licht für Papa anlassen.</ex>
+      <trans>Maman a dit de laisser la lumière allumée pour Papa.</trans>
+      <hr/>
+      <ex>Mama, wohin bist du gegangen? Kann ich noch etwas Kuchen haben, Mama?</ex>
+      <trans>Maman ? Tu es partie où ? // Est-ce que je peux ravoir du gâteau, maman ?</trans>
+      <hr/>
+      <ex>Mama, darf ich Samstag zu der Party gehen?</ex>
+      <trans/>
+      <hr/>
+      <ex>"Mama, mein Knie tut weh!" schniefte das kleine Mädchen.</ex>
+      <trans/>
+      <hr/>
+      <ex>Verlass dich auf deinen Mutterinstinkt, er wird dir sagen, was zu tun ist.</ex>
+      <trans>Compte sur tes instincts maternels pour t'indiquer ce que tu dois faire.</trans>
+      <hr/>
+      <ex>Unsere Muttergesellschaft ist international vertreten.</ex>
+      <trans>Notre société mère est active à l'échelle internationale.</trans>
+      <hr/>
+      <ex>Die Mutterliebe ist die Quelle der endlosen Toleranz.</ex>
+      <trans>L'amour maternel est source d'une bonté infinie.</trans>
+      <hr/>
+      <ex>Der Mutterbär beschützte seine Jungen heftig.</ex>
+      <trans>La maman ours protégeait ses petits avec férocité.</trans>
+      <hr/>
+      <ex>Ihre Muttersprache ist Spanisch.</ex>
+      <trans>Sa langue maternelle est l'espagnol.</trans>
+      <hr/>
+      <ex>Ich glaube, dass Julie viele Kinder haben wird.</ex>
+      <trans>Je pense que Julie donnera naissance à beaucoup d'enfants.</trans>
+      <hr/>
+      <ex>Einige denken, dass Diplomatie die Mutter der Tatenlosigkeit ist.</ex>
+      <trans>Certains pensent que la diplomatie est la mère de l'inaction.</trans>
+      <hr/>
+    </ar>
+  </lexicon>
+</xdxf>

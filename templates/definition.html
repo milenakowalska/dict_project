@@ -9,16 +9,16 @@
     <h1>Word definition</h1>
     <div class='content'>
         {% for word in words %}
-            <h4>{{ word.key }}</h4>
-            <h5>{{ word.translations }}</h5>
+            <h5>{{ word.key }}</h5>
+            <p>{{ word.translations }}</p>
             {% if word.context %}
-            <h5 style='color:gray'>{{ word.context }}</h5>
+            <p style='color:gray'>{{ word.context }}</p>
             {% endif %}
             <hr>
         {% endfor %}
 
         {% for example in examples %}
-            <h5>{{ example.example }}</h5>
+            <h6>{{ example.example }}</h6>
             {% if example.translation_example %}
             <h6 style='color:gray'>{{ example.translation_example }}</h6>
             {% endif %}

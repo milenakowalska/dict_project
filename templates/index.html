@@ -17,10 +17,13 @@
     <h1>Find definition</h1>
     <div class='content'>
     <form action="/definition/" method='POST'>
-        <label class='main_label' for="word">Put a word:</label><br>
-            <input type="text" id="word" name="word"><br>
+        <div class="form-group">
+            <label class='main_label' for="word">Put a word:</label><br>
+            <input type="text" id="word" class='form-control m-1' name="word">
+        </div>
 
-            <select id="language_from" name="language_from">
+
+            <select class='form-control m-1' id="language_from" name="language_from">
                 <option value="" disabled selected>Language from</option>
                 <option value="chiois">Chinese</option>
                 <option value="anglais">English</option>
@@ -32,8 +35,7 @@
                 <option value="russe">Russian</option>
                 <option value="espagnol">Spanish</option>
             </select>
-            <label for="languages">→</label>
-            <select id="language_to" name="language_to">
+            <select class='form-control m-1' id="language_to" name="language_to">
                 <option value="" disabled selected>Language to</option>
                 <option value="chiois">Chinese</option>
                 <option value="anglais">English</option>
@@ -44,15 +46,21 @@
                 <option value="polonais">Polish</option>
                 <option value="russe">Russian</option>
                 <option value="espagnol">Spanish</option>
-            </select><br><br>
+            </select>
             <label class='main_label'>Select dictionary:</label><br>
-            <input type="checkbox" value="wordreference" name="dictionary_name">
-            <label for="wordreference"> Wordreference</label><br>
 
-            <input type="checkbox" value="dictionnaire" name="dictionary_name">
-            <label for="dictionnaire"> Dictionnaire</label><br>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" value="wordreference" name="dictionary_name">
+                <label class="form-check-label" for="wordreference"> Wordreference</label>
+            </div>
 
-            <input type='submit' value='Find definition'>
+            <div class='form-check'>
+                <input class="form-check-input" type="radio" value="dictionnaire" name="dictionary_name">
+                <label class="form-check-label" for="dictionnaire"> Dictionnaire</label>
+            </div>
+
+
+            <input class='btn btn-primary btn-lg' type='submit' value='Find definition'>
 
     </form>
 </div>

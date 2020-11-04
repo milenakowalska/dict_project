@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xdxf lang_from="ger" lang_to="fre" format="visual" revision="DD">
+  <meta_info>
+    <title>Dictionnaire: allemand - francais</title>
+    <description>Dictionary: Dictionnaire; language-from: allemand; language-to: francais</description>
+    <full_name>Dictionnaire: allemand - francais</full_name>
+    <creation_date>04-11-2020</creation_date>
+  </meta_info>
+  <lexicon>
+    <ar key="Katze">
+      <k>die Katze im Sack kaufen</k>
+      <span>acheter les yeux fermés</span>
+      <hr/>
+      <k>die Katze aus dem Sack lassen</k>
+      <span>vendre la mèche</span>
+      <hr/>
+      <k>Katze (f.)</k>
+      <span>chatte</span>
+      <hr/>
+      <k>die Katze, deren Herrchen gegenüber wohnt</k>
+      <span>le chat dont le maître habite en face</span>
+      <hr/>
+      <k>die Maus ist von der Katze gefressen worden</k>
+      <span>la souris a été mangée par le chat</span>
+      <hr/>
+      <k>wie die Katze um den heißen Brei schleichen</k>
+      <span>tourner autour du pot</span>
+      <hr/>
+      <k>Katze</k>
+      <span>chat</span>
+      <hr/>
+      <k>Katze</k>
+      <span>félin</span>
+      <hr/>
+      <ex>Le chat disparu n'a pas encore été retrouvé.</ex>
+      <trans>Die vermisste Katze wurde noch nicht gefunden.</trans>
+      <hr/>
+      <ex>Un chat avec des gants n'attrape pas de souris.</ex>
+      <trans>Eine Katze mit Handschuhen fängt keine Mäuse.</trans>
+      <hr/>
+      <ex>Il est peut-être costaud, mais il se déplace comme un félin.</ex>
+      <trans>Kann aber schleichen wie 'ne Katze.</trans>
+      <hr/>
+    </ar>
+  </lexicon>
+</xdxf>

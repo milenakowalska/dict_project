@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xdxf lang_from="eng" lang_to="chi" format="visual" revision="DD">
+  <meta_info>
+    <title>Wordreference: anglais - chiois</title>
+    <description>Dictionary: Wordreference; language-from: anglais; language-to: chiois</description>
+    <full_name>Wordreference: anglais - chiois</full_name>
+    <creation_date>04-11-2020</creation_date>
+  </meta_info>
+  <lexicon>
+    <ar key="cat">
+      <k>cat</k>
+      <span>猫，猫咪 </span>
+      <context> (feline: domestic) (家畜)</context>
+      <hr/>
+      <k>cat</k>
+      <span>猫科，猫科动物 </span>
+      <context> (member of cat family) (生物学)</context>
+      <hr/>
+      <k>cat</k>
+      <span>家伙 </span>
+      <context> dated, slang (guy) (俚语，过时)</context>
+      <hr/>
+      <k>cat</k>
+      <span>九尾鞭 , 鞭子 </span>
+      <context> (whip)</context>
+      <hr/>
+      <k>cat</k>
+      <span>双体船；筏 </span>
+      <context> slang (catamaran) (俚语)</context>
+      <hr/>
+      <k>cat⇒</k>
+      <span>呕吐 </span>
+      <context> UK, slang, dated (vomit) (英国俚语)</context>
+      <hr/>
+      <k>cat around</k>
+      <span>寻欢问柳 , 拈花惹草 , 流浪猫 , 野猫 </span>
+      <context> slang (look for sex)</context>
+      <hr/>
+      <k>alley cat</k>
+      <span>玩弄女性者 </span>
+      <context> dated, figurative, slang (man: womanizer) (俚语)</context>
+      <hr/>
+      <k>big cat</k>
+      <span>大型猫科动物 </span>
+      <context> informal (large wild feline)</context>
+      <hr/>
+      <k>cat box, litter box, litter tray</k>
+      <span>猫砂盒 </span>
+      <context> (toilet box for cats)</context>
+      <hr/>
+      <k>cat burglar</k>
+      <span>飞贼 , 身手敏捷的贼 </span>
+      <context> (burglar)</context>
+      <hr/>
+      <k>cat flap</k>
+      <span>（开在门上供猫进出用的）猫洞 , 活板门 </span>
+      <context> (opening in door for cat)</context>
+      <hr/>
+      <k>cat food</k>
+      <span>猫粮 , 猫吃的食物 </span>
+      <context> (food intended for cats)</context>
+      <hr/>
+      <k>Cat got your tongue?</k>
+      <span>没话说了？，怎么不说话了？ </span>
+      <context> figurative, informal (Why aren't you talking?)</context>
+      <hr/>
+      <k>cat lady</k>
+      <span>猫女士 </span>
+      <context> informal, pejorative (woman: owns cats) (指和许多猫住在一起的单身老女人)</context>
+      <hr/>
+      <k>cat litter</k>
+      <span>猫砂 </span>
+      <context> uncountable (toilet material for cats)</context>
+      <hr/>
+      <k>cat nap</k>
+      <span>打瞌睡 , 打盹儿 , 假寐 </span>
+      <context> (short daytime sleep)</context>
+      <hr/>
+      <k>cat nip</k>
+      <span>猫薄荷 </span>
+      <context> (herb: stimulant to cats)</context>
+      <hr/>
+      <k>CAT scan</k>
+      <span>CAT扫描 </span>
+      <context> (diagnostic imaging technique)</context>
+      <hr/>
+      <k>cat-o'-nine-tails</k>
+      <span>九尾鞭 </span>
+      <context> (whip with nine cords)</context>
+      <hr/>
+      <k>cat-sit⇒</k>
+      <span>代人照看猫 </span>
+      <context> (mind [sb] else's pet cat)</context>
+      <hr/>
+      <k>cat's paw</k>
+      <span>猫爪 </span>
+      <context> (foot of a cat)</context>
+      <hr/>
+      <k>cat's paw, cat's-paw</k>
+      <span>爪牙，傀儡，被人利用的人 </span>
+      <context> figurative (duped person) (比喻)</context>
+      <hr/>
+      <k>Cheshire cat</k>
+      <span>柴郡猫 </span>
+      <context> (fictional character) (虚钩角色)</context>
+      <hr/>
+      <k>dead cat bounce</k>
+      <span>死猫反弹 </span>
+      <context> figurative (stock market: brief recovery) (股市：短暂复苏)</context>
+      <hr/>
+      <k>domestic cat</k>
+      <span>宠物猫 , 家养猫 </span>
+      <context> (feline kept as a pet)</context>
+      <hr/>
+      <k>domestic cat</k>
+      <span>家猫 </span>
+      <context> (species of small feline)</context>
+      <hr/>
+      <k>fat cat</k>
+      <span>大款 </span>
+      <context> ([sb] wealthy)</context>
+      <hr/>
+      <k>fat cat</k>
+      <span>大亨 , 大人物 </span>
+      <context> (important, influential person)</context>
+      <hr/>
+      <k>fat cat</k>
+      <span>有钱有势的人 </span>
+      <context> (lazy, privileged person)</context>
+      <hr/>
+      <k>fat cat</k>
+      <span>大款, 阔佬 </span>
+      <context> ([sb] rich by questionable dealings)</context>
+      <hr/>
+      <k>ginger cat</k>
+      <span>姜黄色的猫 </span>
+      <context> (feline with orange fur)</context>
+      <hr/>
+      <k>hepcat</k>
+      <span>爵士乐手，爵士音乐家 </span>
+      <context> dated, slang (jazz musician)</context>
+      <hr/>
+      <k>hepcat</k>
+      <span>爵士音乐迷 </span>
+      <context> dated, slang (jazz fan)</context>
+      <hr/>
+      <k>house cat</k>
+      <span>家猫 </span>
+      <context> (domestic feline, pet cat)</context>
+      <hr/>
+      <k>jungle cat</k>
+      <span>丛林猫 , 野猫 </span>
+      <context> (wildcat)</context>
+      <hr/>
+      <k>let the cat out of the bag</k>
+      <span>秘密泄露，真相大白 </span>
+      <context> figurative, informal (reveal the secret) (比喻，非正式用语)</context>
+      <hr/>
+      <k>litter</k>
+      <span>砂 </span>
+      <context> uncountable (gravel for pet waste) (指清理动物粪便用的)</context>
+      <hr/>
+      <k>Persian cat</k>
+      <span>波斯猫 </span>
+      <context> (long-haired domestic feline)</context>
+      <hr/>
+      <k>pussy, puss, pussycat, pussy cat</k>
+      <span>猫咪，咪咪 </span>
+      <context> informal, UK (cat: affectionate term)</context>
+      <hr/>
+      <k>pussycat, pussy cat</k>
+      <span>小白兔，绵羊 </span>
+      <context> informal, figurative (person: not threatening) (温顺讨人喜欢的人，比喻)</context>
+      <hr/>
+      <k>quoll, native cat</k>
+      <span>袋鼬 </span>
+      <context> Aus (catlike marsupial)</context>
+      <hr/>
+      <k>scaredy-cat</k>
+      <span>胆小鬼 </span>
+      <context> childish (coward)</context>
+      <hr/>
+      <k>Siamese cat</k>
+      <span>暹罗猫 </span>
+      <context> (short-haired cat with pale fur)</context>
+      <hr/>
+      <ex>My aunt has a black cat.</ex>
+      <trans>我阿姨（or:  姑姑）养了一只黑猫。</trans>
+      <hr/>
+      <ex>The leopard is a big cat.</ex>
+      <trans>美洲豹是大型猫科动物。</trans>
+      <hr/>
+      <ex>That Chas is a cool cat.</ex>
+      <trans/>
+      <hr/>
+      <ex>The prisoner was whipped with a cat.</ex>
+      <trans>囚犯被人用九尾鞭抽打。</trans>
+      <hr/>
+      <ex>My parents went sailing on their cat.</ex>
+      <trans>我父母乘坐双体船出航。</trans>
+      <hr/>
+      <ex>That cheese makes me want to cat.</ex>
+      <trans/>
+      <hr/>
+      <ex>Wives don't want their husbands to cat around with other women.</ex>
+      <trans/>
+      <hr/>
+      <ex>One of my son's chores is to clean out the cat box daily and add fresh litter when needed.</ex>
+      <trans/>
+      <hr/>
+      <ex>The cat burglar was drunk and fell off the roof into a passing laundry van.</ex>
+      <trans/>
+      <hr/>
+      <ex>We've just fitted a cat flap into the kitchen door so that our cat Jake can come and go as he pleases.</ex>
+      <trans/>
+      <hr/>
+      <ex>The tinned cat food is more expensive but the cats prefer it.  Some cats prefer dry cat food while others prefer wet cat food from a can.</ex>
+      <trans/>
+      <hr/>
+      <ex>What's the matter, has the cat got your tongue?</ex>
+      <trans/>
+      <hr/>
+      <ex>She doesn't sleep well at night but takes cat naps during the day.</ex>
+      <trans/>
+      <hr/>
+      <ex>My cat loves to roll in fresh catnip.</ex>
+      <trans/>
+      <hr/>
+      <ex>The doctor ordered a CAT scan in addition to the lab tests.</ex>
+      <trans/>
+      <hr/>
+      <ex>Sailors who behaved badly were whipped on the back with a cat-o'-nine-tails as a punishment.</ex>
+      <trans/>
+      <hr/>
+      <ex>A cat's paw is soft on the bottom, but has dangerous retractable claws.</ex>
+      <trans/>
+      <hr/>
+      <ex>The European wild cat is bigger than the average domestic cat.</ex>
+      <trans/>
+      <hr/>
+      <ex>The domestic cat has been with us for centuries.</ex>
+      <trans/>
+      <hr/>
+      <ex>A lion is a wild cat, not a house cat.</ex>
+      <trans/>
+      <hr/>
+      <ex>Thanks for letting the cat out of the bag about me being pregnant.</ex>
+      <trans/>
+      <hr/>
+      <ex>I changed the litter in the cat's tray.</ex>
+      <trans>我把盆里的猫砂换了。</trans>
+      <hr/>
+      <ex>A Persian cat needs to be brushed several times a week.</ex>
+      <trans/>
+      <hr/>
+      <ex>Our pussycat's quite old now but we still love her.  Here pussy, pussy, pussy; come here!</ex>
+      <trans>我们的猫咪现在已经很老了，但我们仍然爱她。在这儿，咪咪，咪咪，咪咪，过来！</trans>
+      <hr/>
+      <ex>He looks threatening but he's a pussycat at heart.</ex>
+      <trans/>
+      <hr/>
+    </ar>
+  </lexicon>
+</xdxf>

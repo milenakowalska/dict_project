@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xdxf lang_from="eng" lang_to="rus" format="visual" revision="DD">
+  <meta_info>
+    <title>Wordreference: anglais - russe</title>
+    <description>Dictionary: Wordreference; language-from: anglais; language-to: russe</description>
+    <full_name>Wordreference: anglais - russe</full_name>
+    <creation_date>04-11-2020</creation_date>
+  </meta_info>
+  <lexicon>
+    <ar key="cat">
+      <k>cat</k>
+      <span>кошка , кот </span>
+      <context> (domestic animal) (домашнее животное)</context>
+      <hr/>
+      <ex>My aunt has a black cat.</ex>
+      <trans>У моей тёти есть чёрная кошка (or:  кот).</trans>
+      <hr/>
+    </ar>
+  </lexicon>
+</xdxf>

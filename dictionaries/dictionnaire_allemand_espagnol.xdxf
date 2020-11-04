@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xdxf lang_from="ger" lang_to="esp" format="visual" revision="DD">
+  <meta_info>
+    <title>Dictionnaire: allemand - espagnol</title>
+    <description>Dictionary: Dictionnaire; language-from: allemand; language-to: espagnol</description>
+    <full_name>Dictionnaire: allemand - espagnol</full_name>
+    <creation_date>04-11-2020</creation_date>
+  </meta_info>
+  <lexicon>
+    <ar key="Katze">
+      <k>Katze</k>
+      <span>gato</span>
+      <hr/>
+      <k>Katze</k>
+      <span>gata</span>
+      <hr/>
+      <k>Katze</k>
+      <span>gatito</span>
+      <hr/>
+      <ex>"Lo siento terriblemente, pero he atropellado a su gato".</ex>
+      <trans>Ich habe leider Ihre Katze überfahren.</trans>
+      <hr/>
+      <ex>Quizás un gato callejero haya conseguido trabajo de vendedor a domicilio.</ex>
+      <trans>Vielleicht eine herumstreunende Katze, die hausiert.</trans>
+      <hr/>
+      <ex>"Gata salva a un hombre en un pozo.</ex>
+      <trans>"Katze rettet Mann aus Brunnen.</trans>
+      <hr/>
+      <ex>Y el gemido de una gata en celo.</ex>
+      <trans>Und das Heulen einer rolligen Katze.</trans>
+      <hr/>
+      <ex>Escucha el gatito, mamá, cómo maúlla para entrar.</ex>
+      <trans>Hör nur die kleine Katze, Mutter.</trans>
+      <hr/>
+      <ex>Y un gatito es bueno para quizás a lo sumo seis o siete.</ex>
+      <trans>Und eine Katze gibt maximal sechs oder sieben.</trans>
+      <hr/>
+    </ar>
+  </lexicon>
+</xdxf>
